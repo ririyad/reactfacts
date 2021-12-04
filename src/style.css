@@ -5,6 +5,7 @@
 body {
     font-family: Inter, sans-serif;
     margin: 0;
+    background-color: #282D35;
 }
 nav {
     display: flex;
@@ -19,7 +20,7 @@ nav {
 }
 
 .nav-icon {
-    height: 20px;
+    height: 40px;
     margin-right: 9px;
 }
 
@@ -33,6 +34,19 @@ nav {
     font-size: 22px;    
 }
 
+main {
+    padding: 50px 17px;
+    color: white;
+}
 
+.main-title {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+}
 
+.main-facts {
+    line-height: 50px;
+    max-width: 500px;
+}
 
