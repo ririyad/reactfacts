@@ -1,3 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    margin: 0;
+}
 nav {
     display: flex;
+    align-items: center;
+    background-color: #21222A;
+    padding: 30px 20px;
+    height: 90px;
 }
+
+.nav-logo-text, .nav-title {
+    margin: 0;
+}
+
+.nav-icon {
+    height: 20px;
+    margin-right: 9px;
+}
+
+.nav-title {
+    color: #DEEBF8;
+}
+
+.nav-logo-text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-size: 22px;    
+}
+
+
+
+
